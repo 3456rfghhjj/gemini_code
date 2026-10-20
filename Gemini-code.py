@@ -5,7 +5,7 @@ from tkinter import filedialog, messagebox, ttk
 from google import genai
 
 # Load Gemini API key
-API_KEY = os.environ.get("GEMINI_API_KEY", "")
+API_KEY = os.environ.get("GEMINI_API_KEY", "your_API_key")
 client = genai.Client(api_key=API_KEY)
 
 # Colors and fonts
